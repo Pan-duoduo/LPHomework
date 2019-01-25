@@ -1,0 +1,12 @@
+platform :ios, '8.0'
+use_frameworks!
+
+
+target 'LPHomework' do
+	pod 'SDWebImage'
+	pod 'Masonry'
+	pod 'AFNetworking'
+	pod 'YYModel'
+	pod 'MJRefresh'
+	pod 'IQKeyboardManager'
+end

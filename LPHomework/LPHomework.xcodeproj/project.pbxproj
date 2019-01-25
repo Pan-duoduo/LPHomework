@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4593968BE3355A4FC2C6D378 /* Pods_LPHomework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C833D77190D42308732D1 /* Pods_LPHomework.framework */; };
+		C74462BE21F9AD3A00A8E0A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C74462BD21F9AD3A00A8E0A7 /* AppDelegate.m */; };
+		C74462C121F9AD3A00A8E0A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C74462C021F9AD3A00A8E0A7 /* ViewController.m */; };
+		C74462C421F9AD3A00A8E0A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C74462C221F9AD3A00A8E0A7 /* Main.storyboard */; };
+		C74462C621F9AD3B00A8E0A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C74462C521F9AD3B00A8E0A7 /* Assets.xcassets */; };
+		C74462C921F9AD3B00A8E0A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C74462C721F9AD3B00A8E0A7 /* LaunchScreen.storyboard */; };
+		C74462CC21F9AD3B00A8E0A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C74462CB21F9AD3B00A8E0A7 /* main.m */; };
+		C74462D621F9AD3B00A8E0A7 /* LPHomeworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C74462D521F9AD3B00A8E0A7 /* LPHomeworkTests.m */; };
+		C74462E121F9AD3B00A8E0A7 /* LPHomeworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C74462E021F9AD3B00A8E0A7 /* LPHomeworkUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C74462D221F9AD3B00A8E0A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C74462B121F9AD3900A8E0A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C74462B821F9AD3A00A8E0A7;
+			remoteInfo = LPHomework;
+		};
+		C74462DD21F9AD3B00A8E0A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C74462B121F9AD3900A8E0A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C74462B821F9AD3A00A8E0A7;
+			remoteInfo = LPHomework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		389F9A8C0E2962DCA42C4329 /* Pods-LPHomework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LPHomework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LPHomework/Pods-LPHomework.debug.xcconfig"; sourceTree = "<group>"; };
+		C74462B921F9AD3A00A8E0A7 /* LPHomework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LPHomework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C74462BC21F9AD3A00A8E0A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C74462BD21F9AD3A00A8E0A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C74462BF21F9AD3A00A8E0A7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C74462C021F9AD3A00A8E0A7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C74462C321F9AD3A00A8E0A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C74462C521F9AD3B00A8E0A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C74462C821F9AD3B00A8E0A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C74462CA21F9AD3B00A8E0A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C74462CB21F9AD3B00A8E0A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C74462D121F9AD3B00A8E0A7 /* LPHomeworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LPHomeworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C74462D521F9AD3B00A8E0A7 /* LPHomeworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPHomeworkTests.m; sourceTree = "<group>"; };
+		C74462D721F9AD3B00A8E0A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C74462DC21F9AD3B00A8E0A7 /* LPHomeworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LPHomeworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C74462E021F9AD3B00A8E0A7 /* LPHomeworkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPHomeworkUITests.m; sourceTree = "<group>"; };
+		C74462E221F9AD3B00A8E0A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D44C833D77190D42308732D1 /* Pods_LPHomework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LPHomework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED8BF407AACB8EC07BE7889F /* Pods-LPHomework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LPHomework.release.xcconfig"; path = "Pods/Target Support Files/Pods-LPHomework/Pods-LPHomework.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C74462B621F9AD3A00A8E0A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4593968BE3355A4FC2C6D378 /* Pods_LPHomework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C74462CE21F9AD3B00A8E0A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C74462D921F9AD3B00A8E0A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		201407CF6A376EE34A629918 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				389F9A8C0E2962DCA42C4329 /* Pods-LPHomework.debug.xcconfig */,
+				ED8BF407AACB8EC07BE7889F /* Pods-LPHomework.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C57422AE7104519E5652BFFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D44C833D77190D42308732D1 /* Pods_LPHomework.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C74462B021F9AD3900A8E0A7 = {
+			isa = PBXGroup;
+			children = (
+				C74462BB21F9AD3A00A8E0A7 /* LPHomework */,
+				C74462D421F9AD3B00A8E0A7 /* LPHomeworkTests */,
+				C74462DF21F9AD3B00A8E0A7 /* LPHomeworkUITests */,
+				C74462BA21F9AD3A00A8E0A7 /* Products */,
+				201407CF6A376EE34A629918 /* Pods */,
+				C57422AE7104519E5652BFFC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C74462BA21F9AD3A00A8E0A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C74462B921F9AD3A00A8E0A7 /* LPHomework.app */,
+				C74462D121F9AD3B00A8E0A7 /* LPHomeworkTests.xctest */,
+				C74462DC21F9AD3B00A8E0A7 /* LPHomeworkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C74462BB21F9AD3A00A8E0A7 /* LPHomework */ = {
+			isa = PBXGroup;
+			children = (
+				C74462BC21F9AD3A00A8E0A7 /* AppDelegate.h */,
+				C74462BD21F9AD3A00A8E0A7 /* AppDelegate.m */,
+				C74462BF21F9AD3A00A8E0A7 /* ViewController.h */,
+				C74462C021F9AD3A00A8E0A7 /* ViewController.m */,
+				C74462C221F9AD3A00A8E0A7 /* Main.storyboard */,
+				C74462C521F9AD3B00A8E0A7 /* Assets.xcassets */,
+				C74462C721F9AD3B00A8E0A7 /* LaunchScreen.storyboard */,
+				C74462CA21F9AD3B00A8E0A7 /* Info.plist */,
+				C74462CB21F9AD3B00A8E0A7 /* main.m */,
+			);
+			path = LPHomework;
+			sourceTree = "<group>";
+		};
+		C74462D421F9AD3B00A8E0A7 /* LPHomeworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				C74462D521F9AD3B00A8E0A7 /* LPHomeworkTests.m */,
+				C74462D721F9AD3B00A8E0A7 /* Info.plist */,
+			);
+			path = LPHomeworkTests;
+			sourceTree = "<group>";
+		};
+		C74462DF21F9AD3B00A8E0A7 /* LPHomeworkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C74462E021F9AD3B00A8E0A7 /* LPHomeworkUITests.m */,
+				C74462E221F9AD3B00A8E0A7 /* Info.plist */,
+			);
+			path = LPHomeworkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C74462B821F9AD3A00A8E0A7 /* LPHomework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C74462E521F9AD3B00A8E0A7 /* Build configuration list for PBXNativeTarget "LPHomework" */;
+			buildPhases = (
+				E81A470342B2EE8B1180BF85 /* [CP] Check Pods Manifest.lock */,
+				C74462B521F9AD3A00A8E0A7 /* Sources */,
+				C74462B621F9AD3A00A8E0A7 /* Frameworks */,
+				C74462B721F9AD3A00A8E0A7 /* Resources */,
+				DB022DBB9F6A58842C724475 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LPHomework;
+			productName = LPHomework;
+			productReference = C74462B921F9AD3A00A8E0A7 /* LPHomework.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C74462D021F9AD3B00A8E0A7 /* LPHomeworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C74462E821F9AD3B00A8E0A7 /* Build configuration list for PBXNativeTarget "LPHomeworkTests" */;
+			buildPhases = (
+				C74462CD21F9AD3B00A8E0A7 /* Sources */,
+				C74462CE21F9AD3B00A8E0A7 /* Frameworks */,
+				C74462CF21F9AD3B00A8E0A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C74462D321F9AD3B00A8E0A7 /* PBXTargetDependency */,
+			);
+			name = LPHomeworkTests;
+			productName = LPHomeworkTests;
+			productReference = C74462D121F9AD3B00A8E0A7 /* LPHomeworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C74462DB21F9AD3B00A8E0A7 /* LPHomeworkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C74462EB21F9AD3B00A8E0A7 /* Build configuration list for PBXNativeTarget "LPHomeworkUITests" */;
+			buildPhases = (
+				C74462D821F9AD3B00A8E0A7 /* Sources */,
+				C74462D921F9AD3B00A8E0A7 /* Frameworks */,
+				C74462DA21F9AD3B00A8E0A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C74462DE21F9AD3B00A8E0A7 /* PBXTargetDependency */,
+			);
+			name = LPHomeworkUITests;
+			productName = LPHomeworkUITests;
+			productReference = C74462DC21F9AD3B00A8E0A7 /* LPHomeworkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C74462B121F9AD3900A8E0A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = LPHomework;
+				TargetAttributes = {
+					C74462B821F9AD3A00A8E0A7 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					C74462D021F9AD3B00A8E0A7 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C74462B821F9AD3A00A8E0A7;
+					};
+					C74462DB21F9AD3B00A8E0A7 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C74462B821F9AD3A00A8E0A7;
+					};
+				};
+			};
+			buildConfigurationList = C74462B421F9AD3900A8E0A7 /* Build configuration list for PBXProject "LPHomework" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C74462B021F9AD3900A8E0A7;
+			productRefGroup = C74462BA21F9AD3A00A8E0A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C74462B821F9AD3A00A8E0A7 /* LPHomework */,
+				C74462D021F9AD3B00A8E0A7 /* LPHomeworkTests */,
+				C74462DB21F9AD3B00A8E0A7 /* LPHomeworkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C74462B721F9AD3A00A8E0A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C74462C921F9AD3B00A8E0A7 /* LaunchScreen.storyboard in Resources */,
+				C74462C621F9AD3B00A8E0A7 /* Assets.xcassets in Resources */,
+				C74462C421F9AD3A00A8E0A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C74462CF21F9AD3B00A8E0A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C74462DA21F9AD3B00A8E0A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DB022DBB9F6A58842C724475 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LPHomework/Pods-LPHomework-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LPHomework/Pods-LPHomework-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E81A470342B2EE8B1180BF85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LPHomework-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C74462B521F9AD3A00A8E0A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C74462C121F9AD3A00A8E0A7 /* ViewController.m in Sources */,
+				C74462CC21F9AD3B00A8E0A7 /* main.m in Sources */,
+				C74462BE21F9AD3A00A8E0A7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C74462CD21F9AD3B00A8E0A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C74462D621F9AD3B00A8E0A7 /* LPHomeworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C74462D821F9AD3B00A8E0A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C74462E121F9AD3B00A8E0A7 /* LPHomeworkUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C74462D321F9AD3B00A8E0A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C74462B821F9AD3A00A8E0A7 /* LPHomework */;
+			targetProxy = C74462D221F9AD3B00A8E0A7 /* PBXContainerItemProxy */;
+		};
+		C74462DE21F9AD3B00A8E0A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C74462B821F9AD3A00A8E0A7 /* LPHomework */;
+			targetProxy = C74462DD21F9AD3B00A8E0A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C74462C221F9AD3A00A8E0A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C74462C321F9AD3A00A8E0A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C74462C721F9AD3B00A8E0A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C74462C821F9AD3B00A8E0A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C74462E321F9AD3B00A8E0A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C74462E421F9AD3B00A8E0A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C74462E621F9AD3B00A8E0A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 389F9A8C0E2962DCA42C4329 /* Pods-LPHomework.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FFH6E9RDL4;
+				INFOPLIST_FILE = LPHomework/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LPHomework.LPHomework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C74462E721F9AD3B00A8E0A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED8BF407AACB8EC07BE7889F /* Pods-LPHomework.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FFH6E9RDL4;
+				INFOPLIST_FILE = LPHomework/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LPHomework.LPHomework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C74462E921F9AD3B00A8E0A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FFH6E9RDL4;
+				INFOPLIST_FILE = LPHomeworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LPHomework.LPHomeworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LPHomework.app/LPHomework";
+			};
+			name = Debug;
+		};
+		C74462EA21F9AD3B00A8E0A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FFH6E9RDL4;
+				INFOPLIST_FILE = LPHomeworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LPHomework.LPHomeworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LPHomework.app/LPHomework";
+			};
+			name = Release;
+		};
+		C74462EC21F9AD3B00A8E0A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FFH6E9RDL4;
+				INFOPLIST_FILE = LPHomeworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LPHomework.LPHomeworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LPHomework;
+			};
+			name = Debug;
+		};
+		C74462ED21F9AD3B00A8E0A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FFH6E9RDL4;
+				INFOPLIST_FILE = LPHomeworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LPHomework.LPHomeworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LPHomework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C74462B421F9AD3900A8E0A7 /* Build configuration list for PBXProject "LPHomework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C74462E321F9AD3B00A8E0A7 /* Debug */,
+				C74462E421F9AD3B00A8E0A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C74462E521F9AD3B00A8E0A7 /* Build configuration list for PBXNativeTarget "LPHomework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C74462E621F9AD3B00A8E0A7 /* Debug */,
+				C74462E721F9AD3B00A8E0A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C74462E821F9AD3B00A8E0A7 /* Build configuration list for PBXNativeTarget "LPHomeworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C74462E921F9AD3B00A8E0A7 /* Debug */,
+				C74462EA21F9AD3B00A8E0A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C74462EB21F9AD3B00A8E0A7 /* Build configuration list for PBXNativeTarget "LPHomeworkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C74462EC21F9AD3B00A8E0A7 /* Debug */,
+				C74462ED21F9AD3B00A8E0A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C74462B121F9AD3900A8E0A7 /* Project object */;
+}

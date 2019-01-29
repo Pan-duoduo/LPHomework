@@ -38,7 +38,7 @@
 
 - (LPLoginOrRegisterView *)loginView {
     if (!_loginView) {
-        _loginView = [[LPLoginOrRegisterView alloc] init];
+        _loginView = [[LPLoginOrRegisterView alloc] initWithFrame:CGRectMake(0, 0, LPScreen_W, LPScreen_H)];
     }
     return _loginView;
 }
@@ -59,6 +59,9 @@
         [self.loginVM.loginCommand execute:@{@"account": self.loginView.acountTF.text, @"password": self.loginView.passworkTF.text}];
     }];
     
+    [_loginVM.loginCommand.executionSignals.switchToLatest subscribeNext:^(id  _Nullable x) {
+        NSLog(@"登录成功，跳转！！！");
+    }];
 }
 
 

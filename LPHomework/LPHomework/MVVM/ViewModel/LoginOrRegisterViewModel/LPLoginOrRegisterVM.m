@@ -40,6 +40,14 @@
             }];
         }];
     }];
+    
+    [[self.loginCommand.executing skip:1] subscribeNext:^(NSNumber * _Nullable x) {
+        if ([x boolValue]) {
+            NSLog(@"正在执行中....");
+        }else {
+            NSLog(@"执行结束了！！！！");
+        }
+    }];
 }
 
 @end

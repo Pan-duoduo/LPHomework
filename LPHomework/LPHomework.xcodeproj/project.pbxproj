@@ -668,6 +668,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 389F9A8C0E2962DCA42C4329 /* Pods-LPHomework.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FFH6E9RDL4;
@@ -688,6 +689,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ED8BF407AACB8EC07BE7889F /* Pods-LPHomework.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FFH6E9RDL4;

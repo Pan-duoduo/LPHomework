@@ -20,9 +20,22 @@
 		C744633B21FEDE3B00A8E0A7 /* LPHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C744633921FEDE3B00A8E0A7 /* LPHomeView.m */; };
 		C744634021FEDE4600A8E0A7 /* LPHomeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C744633D21FEDE4600A8E0A7 /* LPHomeViewModel.m */; };
 		C744634521FEDE5100A8E0A7 /* LPHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C744634221FEDE5100A8E0A7 /* LPHomeModel.m */; };
-		C744634B21FEE02900A8E0A7 /* LPLoginOrRegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = C744634721FEDEB000A8E0A7 /* LPLoginOrRegisterController.m */; };
 		C744635021FEE3E200A8E0A7 /* LPLoginOrRegisterVM.m in Sources */ = {isa = PBXBuildFile; fileRef = C744634D21FEE33F00A8E0A7 /* LPLoginOrRegisterVM.m */; };
 		C744635621FEF08B00A8E0A7 /* LPLoginOrRegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = C744635521FEF08B00A8E0A7 /* LPLoginOrRegisterView.m */; };
+		C7771FE42200236900D609EF /* LPBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7771FD82200236800D609EF /* LPBaseTableView.m */; };
+		C7771FE52200236900D609EF /* LPBaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C7771FD92200236800D609EF /* LPBaseObject.m */; };
+		C7771FE62200236900D609EF /* LPTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7771FDE2200236800D609EF /* LPTabbarController.m */; };
+		C7771FE72200236900D609EF /* LPBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7771FE02200236900D609EF /* LPBaseViewController.m */; };
+		C7771FE82200236900D609EF /* LPBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7771FE12200236900D609EF /* LPBaseNavigationController.m */; };
+		C7771FE92200236900D609EF /* LPWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7771FE32200236900D609EF /* LPWebViewController.m */; };
+		C7771FEF2200244B00D609EF /* LPLoginOrRegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7771FEC2200244B00D609EF /* LPLoginOrRegisterController.m */; };
+		C7771FF22200247300D609EF /* LPMessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7771FF12200247300D609EF /* LPMessageController.m */; };
+		C7771FF52200248300D609EF /* LPClassController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7771FF42200248300D609EF /* LPClassController.m */; };
+		C7771FF82200249B00D609EF /* LPMineController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7771FF72200249B00D609EF /* LPMineController.m */; };
+		C7771FFB2200260500D609EF /* LPSearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7771FFA2200260400D609EF /* LPSearchView.m */; };
+		C77720022200266700D609EF /* LPFactoryTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C7771FFD2200266700D609EF /* LPFactoryTool.m */; };
+		C77720032200266700D609EF /* LPShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C77720002200266700D609EF /* LPShareManager.m */; };
+		C77720042200266700D609EF /* LPCommonTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C77720012200266700D609EF /* LPCommonTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,14 +81,40 @@
 		C744633E21FEDE4600A8E0A7 /* LPHomeViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPHomeViewModel.h; sourceTree = "<group>"; };
 		C744634221FEDE5100A8E0A7 /* LPHomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPHomeModel.m; sourceTree = "<group>"; };
 		C744634321FEDE5100A8E0A7 /* LPHomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPHomeModel.h; sourceTree = "<group>"; };
-		C744634621FEDEB000A8E0A7 /* LPLoginOrRegisterController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LPLoginOrRegisterController.h; sourceTree = "<group>"; };
-		C744634721FEDEB000A8E0A7 /* LPLoginOrRegisterController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPLoginOrRegisterController.m; sourceTree = "<group>"; };
 		C744634C21FEE33F00A8E0A7 /* LPLoginOrRegisterVM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LPLoginOrRegisterVM.h; sourceTree = "<group>"; };
 		C744634D21FEE33F00A8E0A7 /* LPLoginOrRegisterVM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPLoginOrRegisterVM.m; sourceTree = "<group>"; };
 		C744635121FEE5CF00A8E0A7 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		C744635221FEE77A00A8E0A7 /* ReactiveObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ReactiveObjC.h; path = Pods/ReactiveObjC/ReactiveObjC/ReactiveObjC.h; sourceTree = "<group>"; };
 		C744635421FEF08B00A8E0A7 /* LPLoginOrRegisterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LPLoginOrRegisterView.h; sourceTree = "<group>"; };
 		C744635521FEF08B00A8E0A7 /* LPLoginOrRegisterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPLoginOrRegisterView.m; sourceTree = "<group>"; };
+		C7771FD82200236800D609EF /* LPBaseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPBaseTableView.m; sourceTree = "<group>"; };
+		C7771FD92200236800D609EF /* LPBaseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPBaseObject.m; sourceTree = "<group>"; };
+		C7771FDA2200236800D609EF /* LPWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPWebViewController.h; sourceTree = "<group>"; };
+		C7771FDB2200236800D609EF /* LPBaseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPBaseObject.h; sourceTree = "<group>"; };
+		C7771FDC2200236800D609EF /* LPBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPBaseNavigationController.h; sourceTree = "<group>"; };
+		C7771FDD2200236800D609EF /* LPBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPBaseViewController.h; sourceTree = "<group>"; };
+		C7771FDE2200236800D609EF /* LPTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPTabbarController.m; sourceTree = "<group>"; };
+		C7771FDF2200236800D609EF /* LPTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPTabbarController.h; sourceTree = "<group>"; };
+		C7771FE02200236900D609EF /* LPBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPBaseViewController.m; sourceTree = "<group>"; };
+		C7771FE12200236900D609EF /* LPBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPBaseNavigationController.m; sourceTree = "<group>"; };
+		C7771FE22200236900D609EF /* LPBaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPBaseTableView.h; sourceTree = "<group>"; };
+		C7771FE32200236900D609EF /* LPWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPWebViewController.m; sourceTree = "<group>"; };
+		C7771FEB2200244B00D609EF /* LPLoginOrRegisterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPLoginOrRegisterController.h; sourceTree = "<group>"; };
+		C7771FEC2200244B00D609EF /* LPLoginOrRegisterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPLoginOrRegisterController.m; sourceTree = "<group>"; };
+		C7771FF02200247300D609EF /* LPMessageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LPMessageController.h; sourceTree = "<group>"; };
+		C7771FF12200247300D609EF /* LPMessageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPMessageController.m; sourceTree = "<group>"; };
+		C7771FF32200248300D609EF /* LPClassController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LPClassController.h; sourceTree = "<group>"; };
+		C7771FF42200248300D609EF /* LPClassController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPClassController.m; sourceTree = "<group>"; };
+		C7771FF62200249B00D609EF /* LPMineController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LPMineController.h; sourceTree = "<group>"; };
+		C7771FF72200249B00D609EF /* LPMineController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPMineController.m; sourceTree = "<group>"; };
+		C7771FF92200260400D609EF /* LPSearchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPSearchView.h; sourceTree = "<group>"; };
+		C7771FFA2200260400D609EF /* LPSearchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPSearchView.m; sourceTree = "<group>"; };
+		C7771FFC2200266700D609EF /* LPFactoryTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPFactoryTool.h; sourceTree = "<group>"; };
+		C7771FFD2200266700D609EF /* LPFactoryTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPFactoryTool.m; sourceTree = "<group>"; };
+		C7771FFE2200266700D609EF /* LPShareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPShareManager.h; sourceTree = "<group>"; };
+		C7771FFF2200266700D609EF /* LPCommonTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPCommonTool.h; sourceTree = "<group>"; };
+		C77720002200266700D609EF /* LPShareManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPShareManager.m; sourceTree = "<group>"; };
+		C77720012200266700D609EF /* LPCommonTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPCommonTool.m; sourceTree = "<group>"; };
 		D44C833D77190D42308732D1 /* Pods_LPHomework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LPHomework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED8BF407AACB8EC07BE7889F /* Pods-LPHomework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LPHomework.release.xcconfig"; path = "Pods/Target Support Files/Pods-LPHomework/Pods-LPHomework.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -150,7 +189,12 @@
 			isa = PBXGroup;
 			children = (
 				C74462F521FB110E00A8E0A7 /* Configuration */,
+				C7771FD62200231000D609EF /* BaseObject */,
 				C744630821FB111E00A8E0A7 /* MVVM */,
+				C7771FD52200231000D609EF /* Tool */,
+				C7771FD72200231000D609EF /* Category */,
+				C7771FD32200231000D609EF /* Images */,
+				C7771FD42200231000D609EF /* ThirdLib */,
 			);
 			path = LPHomework;
 			sourceTree = "<group>";
@@ -214,7 +258,9 @@
 			isa = PBXGroup;
 			children = (
 				C744633221FEDE2400A8E0A7 /* HomeVC */,
-				C744633521FEDE2400A8E0A7 /* LoginOrRegisterVC */,
+				C7771FED2200244B00D609EF /* MessageVC */,
+				C7771FEE2200244B00D609EF /* ClassVC */,
+				C7771FEA2200244B00D609EF /* MineVC */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -244,15 +290,6 @@
 				C744633421FEDE2400A8E0A7 /* LPHomeViewController.h */,
 			);
 			path = HomeVC;
-			sourceTree = "<group>";
-		};
-		C744633521FEDE2400A8E0A7 /* LoginOrRegisterVC */ = {
-			isa = PBXGroup;
-			children = (
-				C744634621FEDEB000A8E0A7 /* LPLoginOrRegisterController.h */,
-				C744634721FEDEB000A8E0A7 /* LPLoginOrRegisterController.m */,
-			);
-			path = LoginOrRegisterVC;
 			sourceTree = "<group>";
 		};
 		C744633721FEDE3B00A8E0A7 /* HomeView */ = {
@@ -305,6 +342,90 @@
 			children = (
 			);
 			path = LoginOrRegisterModel;
+			sourceTree = "<group>";
+		};
+		C7771FD32200231000D609EF /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		C7771FD42200231000D609EF /* ThirdLib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdLib;
+			sourceTree = "<group>";
+		};
+		C7771FD52200231000D609EF /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				C7771FFF2200266700D609EF /* LPCommonTool.h */,
+				C77720012200266700D609EF /* LPCommonTool.m */,
+				C7771FFC2200266700D609EF /* LPFactoryTool.h */,
+				C7771FFD2200266700D609EF /* LPFactoryTool.m */,
+				C7771FFE2200266700D609EF /* LPShareManager.h */,
+				C77720002200266700D609EF /* LPShareManager.m */,
+				C7771FF92200260400D609EF /* LPSearchView.h */,
+				C7771FFA2200260400D609EF /* LPSearchView.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		C7771FD62200231000D609EF /* BaseObject */ = {
+			isa = PBXGroup;
+			children = (
+				C7771FDD2200236800D609EF /* LPBaseViewController.h */,
+				C7771FE02200236900D609EF /* LPBaseViewController.m */,
+				C7771FDC2200236800D609EF /* LPBaseNavigationController.h */,
+				C7771FE12200236900D609EF /* LPBaseNavigationController.m */,
+				C7771FDB2200236800D609EF /* LPBaseObject.h */,
+				C7771FD92200236800D609EF /* LPBaseObject.m */,
+				C7771FE22200236900D609EF /* LPBaseTableView.h */,
+				C7771FD82200236800D609EF /* LPBaseTableView.m */,
+				C7771FDF2200236800D609EF /* LPTabbarController.h */,
+				C7771FDE2200236800D609EF /* LPTabbarController.m */,
+				C7771FDA2200236800D609EF /* LPWebViewController.h */,
+				C7771FE32200236900D609EF /* LPWebViewController.m */,
+			);
+			path = BaseObject;
+			sourceTree = "<group>";
+		};
+		C7771FD72200231000D609EF /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		C7771FEA2200244B00D609EF /* MineVC */ = {
+			isa = PBXGroup;
+			children = (
+				C7771FF62200249B00D609EF /* LPMineController.h */,
+				C7771FF72200249B00D609EF /* LPMineController.m */,
+				C7771FEB2200244B00D609EF /* LPLoginOrRegisterController.h */,
+				C7771FEC2200244B00D609EF /* LPLoginOrRegisterController.m */,
+			);
+			path = MineVC;
+			sourceTree = "<group>";
+		};
+		C7771FED2200244B00D609EF /* MessageVC */ = {
+			isa = PBXGroup;
+			children = (
+				C7771FF02200247300D609EF /* LPMessageController.h */,
+				C7771FF12200247300D609EF /* LPMessageController.m */,
+			);
+			path = MessageVC;
+			sourceTree = "<group>";
+		};
+		C7771FEE2200244B00D609EF /* ClassVC */ = {
+			isa = PBXGroup;
+			children = (
+				C7771FF32200248300D609EF /* LPClassController.h */,
+				C7771FF42200248300D609EF /* LPClassController.m */,
+			);
+			path = ClassVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -488,16 +609,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C744634B21FEE02900A8E0A7 /* LPLoginOrRegisterController.m in Sources */,
 				C744633B21FEDE3B00A8E0A7 /* LPHomeView.m in Sources */,
 				C744634021FEDE4600A8E0A7 /* LPHomeViewModel.m in Sources */,
+				C77720042200266700D609EF /* LPCommonTool.m in Sources */,
 				C744630521FB110F00A8E0A7 /* main.m in Sources */,
 				C744630621FB110F00A8E0A7 /* AppDelegate.m in Sources */,
+				C7771FF52200248300D609EF /* LPClassController.m in Sources */,
+				C7771FF22200247300D609EF /* LPMessageController.m in Sources */,
+				C7771FFB2200260500D609EF /* LPSearchView.m in Sources */,
+				C7771FE72200236900D609EF /* LPBaseViewController.m in Sources */,
 				C744633621FEDE2400A8E0A7 /* LPHomeViewController.m in Sources */,
 				C744630221FB110F00A8E0A7 /* ViewController.m in Sources */,
+				C7771FEF2200244B00D609EF /* LPLoginOrRegisterController.m in Sources */,
+				C77720032200266700D609EF /* LPShareManager.m in Sources */,
+				C7771FE62200236900D609EF /* LPTabbarController.m in Sources */,
+				C7771FF82200249B00D609EF /* LPMineController.m in Sources */,
+				C7771FE92200236900D609EF /* LPWebViewController.m in Sources */,
 				C744635021FEE3E200A8E0A7 /* LPLoginOrRegisterVM.m in Sources */,
 				C744635621FEF08B00A8E0A7 /* LPLoginOrRegisterView.m in Sources */,
+				C7771FE42200236900D609EF /* LPBaseTableView.m in Sources */,
+				C77720022200266700D609EF /* LPFactoryTool.m in Sources */,
 				C744634521FEDE5100A8E0A7 /* LPHomeModel.m in Sources */,
+				C7771FE52200236900D609EF /* LPBaseObject.m in Sources */,
+				C7771FE82200236900D609EF /* LPBaseNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

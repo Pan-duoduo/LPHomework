@@ -76,17 +76,57 @@
 
 #pragma mark ************************ 颜色、字体定义 ************************
 #define LPColorWithHex(x)   [UIColor colorWithRed:((float)((x & 0xFF0000) >> 16))/255.0 green:((float)((x & 0xFF00) >> 8))/255.0 blue:((float)(x & 0xFF))/255.0 alpha:1.0]
-#define LPLineColor LPColorWithHex(0xcacaca)                        // 分割线颜色
+/** 颜色定义 */
+#define LPColorWithRGB(r,g,b)       [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1.0]
+#define LPLineColor                 LPColorWithHex(0xcacaca)                        // 分割线颜色
+#define LPNavigationColor           LPColorWithHex(0xffffff)
+#define LPAppColor                  LPColorWithHex(0x009b65)
+
+
 #define LPFontSize(size) [UIFont systemFontOfSize:size]             // 字体
 #define LPFontBoldSize(size) [UIFont boldSystemFontOfSize:size]     // 加粗字体
 
+#pragma mark ************************ X适配 ************************
+#define IS_IPHONE_X (LPScreen_W == 375.f && LPScreen_H == 812.f ? YES : NO)
+/** 适配iPhone X */
+#define LPStatusBarHeight [[UIApplication sharedApplication] statusBarFrame].size.height
+#define LPBarHeight [self.tabBarController.tabBar frame].size.height
+#define LPNavHeight [self.navigationController.navigationBar frame].size.height
+/** 有电池栏、有tabbar和navgation的高 */
+#define LPDevice_useHeight_SNB [UIScreen mainScreen].bounds.size.height - DSStatusBarHeight - DSBarHeight - DSNavHeight
+/** 有电池栏、有navgation的高 */
+#define LPSDevice_useHeight_SN [UIScreen mainScreen].bounds.size.height - DSStatusBarHeight - DSNavHeight
+/** 有电池栏高度 */
+#define LPDevice_useHeight_S [UIScreen mainScreen].bounds.size.height - DSStatusBarHeight
 
 
+/** 系统版本 */
+#define SYS_VERSION     ([[[UIDevice currentDevice] systemVersion] floatValue])
+#define IOS6_OR_LATER   ( SYS_VERSION >= 6.0 )
+#define IOS7_OR_LATER   ( SYS_VERSION >= 7.0 )
+#define IOS7_1_OR_LATER ( SYS_VERSION >= 7.1 )
+#define IOS8_OR_LATER   ( SYS_VERSION >= 8.0 )
+#define IOS10_OR_LATER  ( SYS_VERSION >= 10.0 )
+#define IOS11_OR_LATER  ( SYS_VERSION >= 11.0 )
+
+/** 超时时间 */
+#define LPTimeOut 8.0
+
+//存放本地信息   用户信息  KEY
+#define LPUSERKEY  @"userKey"
+
+
+#pragma mark ============================== 服务器地址 ==============================
+#define LPBaseUrl @"http://deer.cdds365.com/"                       // 正式服务器
 
 
 #pragma mark ============================== 三方库头文件 ==============================
 #import <ReactiveObjC/ReactiveObjC.h>
 #import <Masonry/Masonry.h>
+#import <SDWebImage/SDImageCache.h>
+#import <SDWebImage/UIButton+WebCache.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+#import <SDWebImage/SDImageCache.h>
 
 
 
@@ -98,6 +138,15 @@
 
 
 #pragma mark ============================== 自定义文件 ==============================
+#import "LPBaseViewController.h"
+#import "LPBaseNavigationController.h"
+
+
+
+
+
+#import "LPCommonTool.h"
+#import "LPFactoryTool.h"
 
 
 
@@ -105,4 +154,4 @@
 
 
 
-#pragma mark ==============================  ==============================
+

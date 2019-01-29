@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "LPLoginOrRegisterController.h"
+#import "LPTabbarController.h"
 
 @interface AppDelegate ()
 
@@ -21,9 +21,8 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
-    self.window.rootViewController = [[LPLoginOrRegisterController alloc] init];
+    self.window.rootViewController = [[LPTabbarController alloc] init];
     [self.window makeKeyAndVisible];
-    
     
     return YES;
 }

@@ -16,26 +16,29 @@
 		C744630421FB110F00A8E0A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C74462FB21FB110E00A8E0A7 /* Main.storyboard */; };
 		C744630521FB110F00A8E0A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C74462FD21FB110F00A8E0A7 /* main.m */; };
 		C744630621FB110F00A8E0A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C74462FE21FB110F00A8E0A7 /* AppDelegate.m */; };
-		C744633621FEDE2400A8E0A7 /* LPHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C744633321FEDE2400A8E0A7 /* LPHomeViewController.m */; };
-		C744633B21FEDE3B00A8E0A7 /* LPHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C744633921FEDE3B00A8E0A7 /* LPHomeView.m */; };
-		C744634021FEDE4600A8E0A7 /* LPHomeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C744633D21FEDE4600A8E0A7 /* LPHomeViewModel.m */; };
-		C744634521FEDE5100A8E0A7 /* LPHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C744634221FEDE5100A8E0A7 /* LPHomeModel.m */; };
-		C744635021FEE3E200A8E0A7 /* LPLoginOrRegisterVM.m in Sources */ = {isa = PBXBuildFile; fileRef = C744634D21FEE33F00A8E0A7 /* LPLoginOrRegisterVM.m */; };
-		C744635621FEF08B00A8E0A7 /* LPLoginOrRegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = C744635521FEF08B00A8E0A7 /* LPLoginOrRegisterView.m */; };
 		C7771FE42200236900D609EF /* LPBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7771FD82200236800D609EF /* LPBaseTableView.m */; };
 		C7771FE52200236900D609EF /* LPBaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C7771FD92200236800D609EF /* LPBaseObject.m */; };
 		C7771FE62200236900D609EF /* LPTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7771FDE2200236800D609EF /* LPTabbarController.m */; };
 		C7771FE72200236900D609EF /* LPBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7771FE02200236900D609EF /* LPBaseViewController.m */; };
 		C7771FE82200236900D609EF /* LPBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7771FE12200236900D609EF /* LPBaseNavigationController.m */; };
 		C7771FE92200236900D609EF /* LPWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7771FE32200236900D609EF /* LPWebViewController.m */; };
-		C7771FEF2200244B00D609EF /* LPLoginOrRegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7771FEC2200244B00D609EF /* LPLoginOrRegisterController.m */; };
-		C7771FF22200247300D609EF /* LPMessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7771FF12200247300D609EF /* LPMessageController.m */; };
-		C7771FF52200248300D609EF /* LPClassController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7771FF42200248300D609EF /* LPClassController.m */; };
-		C7771FF82200249B00D609EF /* LPMineController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7771FF72200249B00D609EF /* LPMineController.m */; };
 		C7771FFB2200260500D609EF /* LPSearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7771FFA2200260400D609EF /* LPSearchView.m */; };
 		C77720022200266700D609EF /* LPFactoryTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C7771FFD2200266700D609EF /* LPFactoryTool.m */; };
 		C77720032200266700D609EF /* LPShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C77720002200266700D609EF /* LPShareManager.m */; };
 		C77720042200266700D609EF /* LPCommonTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C77720012200266700D609EF /* LPCommonTool.m */; };
+		C777203F22003CE000D609EF /* LPHomeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C777201322003CE000D609EF /* LPHomeViewModel.m */; };
+		C777204022003CE000D609EF /* LPHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C777201622003CE000D609EF /* LPHomeViewController.m */; };
+		C777204122003CE000D609EF /* LPHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C777201922003CE000D609EF /* LPHomeModel.m */; };
+		C777204222003CE000D609EF /* LPHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C777201D22003CE000D609EF /* LPHomeView.m */; };
+		C777204322003CE000D609EF /* LPClassController.m in Sources */ = {isa = PBXBuildFile; fileRef = C777202122003CE000D609EF /* LPClassController.m */; };
+		C777204422003CE000D609EF /* LPMineVM.m in Sources */ = {isa = PBXBuildFile; fileRef = C777202922003CE000D609EF /* LPMineVM.m */; };
+		C777204522003CE000D609EF /* LPLoginOrRegisterVM.m in Sources */ = {isa = PBXBuildFile; fileRef = C777202A22003CE000D609EF /* LPLoginOrRegisterVM.m */; };
+		C777204622003CE000D609EF /* LPLoginOrRegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = C777202E22003CE000D609EF /* LPLoginOrRegisterController.m */; };
+		C777204722003CE000D609EF /* LPMineController.m in Sources */ = {isa = PBXBuildFile; fileRef = C777202F22003CE000D609EF /* LPMineController.m */; };
+		C777204822003CE000D609EF /* LPLoginOrRegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = C777203222003CE000D609EF /* LPLoginOrRegisterView.m */; };
+		C777204922003CE000D609EF /* LPHomeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C777203622003CE000D609EF /* LPHomeViewModel.m */; };
+		C777204A22003CE000D609EF /* LPMessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = C777203A22003CE000D609EF /* LPMessageController.m */; };
+		C777204B22003CE000D609EF /* LPHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C777203E22003CE000D609EF /* LPHomeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,20 +76,8 @@
 		C74462FE21FB110F00A8E0A7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C74462FF21FB110F00A8E0A7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C744630021FB110F00A8E0A7 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C744633321FEDE2400A8E0A7 /* LPHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPHomeViewController.m; sourceTree = "<group>"; };
-		C744633421FEDE2400A8E0A7 /* LPHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPHomeViewController.h; sourceTree = "<group>"; };
-		C744633821FEDE3B00A8E0A7 /* LPHomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPHomeView.h; sourceTree = "<group>"; };
-		C744633921FEDE3B00A8E0A7 /* LPHomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPHomeView.m; sourceTree = "<group>"; };
-		C744633D21FEDE4600A8E0A7 /* LPHomeViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPHomeViewModel.m; sourceTree = "<group>"; };
-		C744633E21FEDE4600A8E0A7 /* LPHomeViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPHomeViewModel.h; sourceTree = "<group>"; };
-		C744634221FEDE5100A8E0A7 /* LPHomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPHomeModel.m; sourceTree = "<group>"; };
-		C744634321FEDE5100A8E0A7 /* LPHomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPHomeModel.h; sourceTree = "<group>"; };
-		C744634C21FEE33F00A8E0A7 /* LPLoginOrRegisterVM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LPLoginOrRegisterVM.h; sourceTree = "<group>"; };
-		C744634D21FEE33F00A8E0A7 /* LPLoginOrRegisterVM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPLoginOrRegisterVM.m; sourceTree = "<group>"; };
 		C744635121FEE5CF00A8E0A7 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		C744635221FEE77A00A8E0A7 /* ReactiveObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ReactiveObjC.h; path = Pods/ReactiveObjC/ReactiveObjC/ReactiveObjC.h; sourceTree = "<group>"; };
-		C744635421FEF08B00A8E0A7 /* LPLoginOrRegisterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LPLoginOrRegisterView.h; sourceTree = "<group>"; };
-		C744635521FEF08B00A8E0A7 /* LPLoginOrRegisterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPLoginOrRegisterView.m; sourceTree = "<group>"; };
 		C7771FD82200236800D609EF /* LPBaseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPBaseTableView.m; sourceTree = "<group>"; };
 		C7771FD92200236800D609EF /* LPBaseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPBaseObject.m; sourceTree = "<group>"; };
 		C7771FDA2200236800D609EF /* LPWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPWebViewController.h; sourceTree = "<group>"; };
@@ -99,14 +90,6 @@
 		C7771FE12200236900D609EF /* LPBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPBaseNavigationController.m; sourceTree = "<group>"; };
 		C7771FE22200236900D609EF /* LPBaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPBaseTableView.h; sourceTree = "<group>"; };
 		C7771FE32200236900D609EF /* LPWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPWebViewController.m; sourceTree = "<group>"; };
-		C7771FEB2200244B00D609EF /* LPLoginOrRegisterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPLoginOrRegisterController.h; sourceTree = "<group>"; };
-		C7771FEC2200244B00D609EF /* LPLoginOrRegisterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPLoginOrRegisterController.m; sourceTree = "<group>"; };
-		C7771FF02200247300D609EF /* LPMessageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LPMessageController.h; sourceTree = "<group>"; };
-		C7771FF12200247300D609EF /* LPMessageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPMessageController.m; sourceTree = "<group>"; };
-		C7771FF32200248300D609EF /* LPClassController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LPClassController.h; sourceTree = "<group>"; };
-		C7771FF42200248300D609EF /* LPClassController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPClassController.m; sourceTree = "<group>"; };
-		C7771FF62200249B00D609EF /* LPMineController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LPMineController.h; sourceTree = "<group>"; };
-		C7771FF72200249B00D609EF /* LPMineController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPMineController.m; sourceTree = "<group>"; };
 		C7771FF92200260400D609EF /* LPSearchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPSearchView.h; sourceTree = "<group>"; };
 		C7771FFA2200260400D609EF /* LPSearchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPSearchView.m; sourceTree = "<group>"; };
 		C7771FFC2200266700D609EF /* LPFactoryTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPFactoryTool.h; sourceTree = "<group>"; };
@@ -115,6 +98,32 @@
 		C7771FFF2200266700D609EF /* LPCommonTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPCommonTool.h; sourceTree = "<group>"; };
 		C77720002200266700D609EF /* LPShareManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPShareManager.m; sourceTree = "<group>"; };
 		C77720012200266700D609EF /* LPCommonTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPCommonTool.m; sourceTree = "<group>"; };
+		C777201322003CE000D609EF /* LPHomeViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPHomeViewModel.m; sourceTree = "<group>"; };
+		C777201422003CE000D609EF /* LPHomeViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPHomeViewModel.h; sourceTree = "<group>"; };
+		C777201622003CE000D609EF /* LPHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPHomeViewController.m; sourceTree = "<group>"; };
+		C777201722003CE000D609EF /* LPHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPHomeViewController.h; sourceTree = "<group>"; };
+		C777201922003CE000D609EF /* LPHomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPHomeModel.m; sourceTree = "<group>"; };
+		C777201A22003CE000D609EF /* LPHomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPHomeModel.h; sourceTree = "<group>"; };
+		C777201C22003CE000D609EF /* LPHomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPHomeView.h; sourceTree = "<group>"; };
+		C777201D22003CE000D609EF /* LPHomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPHomeView.m; sourceTree = "<group>"; };
+		C777202122003CE000D609EF /* LPClassController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPClassController.m; sourceTree = "<group>"; };
+		C777202222003CE000D609EF /* LPClassController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPClassController.h; sourceTree = "<group>"; };
+		C777202722003CE000D609EF /* LPMineVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPMineVM.h; sourceTree = "<group>"; };
+		C777202822003CE000D609EF /* LPLoginOrRegisterVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPLoginOrRegisterVM.h; sourceTree = "<group>"; };
+		C777202922003CE000D609EF /* LPMineVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPMineVM.m; sourceTree = "<group>"; };
+		C777202A22003CE000D609EF /* LPLoginOrRegisterVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPLoginOrRegisterVM.m; sourceTree = "<group>"; };
+		C777202C22003CE000D609EF /* LPLoginOrRegisterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPLoginOrRegisterController.h; sourceTree = "<group>"; };
+		C777202D22003CE000D609EF /* LPMineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPMineController.h; sourceTree = "<group>"; };
+		C777202E22003CE000D609EF /* LPLoginOrRegisterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPLoginOrRegisterController.m; sourceTree = "<group>"; };
+		C777202F22003CE000D609EF /* LPMineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPMineController.m; sourceTree = "<group>"; };
+		C777203222003CE000D609EF /* LPLoginOrRegisterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPLoginOrRegisterView.m; sourceTree = "<group>"; };
+		C777203322003CE000D609EF /* LPLoginOrRegisterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPLoginOrRegisterView.h; sourceTree = "<group>"; };
+		C777203622003CE000D609EF /* LPHomeViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPHomeViewModel.m; sourceTree = "<group>"; };
+		C777203722003CE000D609EF /* LPHomeViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPHomeViewModel.h; sourceTree = "<group>"; };
+		C777203922003CE000D609EF /* LPMessageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPMessageController.h; sourceTree = "<group>"; };
+		C777203A22003CE000D609EF /* LPMessageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPMessageController.m; sourceTree = "<group>"; };
+		C777203D22003CE000D609EF /* LPHomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPHomeView.h; sourceTree = "<group>"; };
+		C777203E22003CE000D609EF /* LPHomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPHomeView.m; sourceTree = "<group>"; };
 		D44C833D77190D42308732D1 /* Pods_LPHomework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LPHomework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED8BF407AACB8EC07BE7889F /* Pods-LPHomework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LPHomework.release.xcconfig"; path = "Pods/Target Support Files/Pods-LPHomework/Pods-LPHomework.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -237,111 +246,12 @@
 		C744630821FB111E00A8E0A7 /* MVVM */ = {
 			isa = PBXGroup;
 			children = (
-				C744630A21FB111E00A8E0A7 /* Controller */,
-				C744630C21FB111E00A8E0A7 /* View */,
-				C744630921FB111E00A8E0A7 /* ViewModel */,
-				C744630B21FB111E00A8E0A7 /* Model */,
+				C777201122003CE000D609EF /* Home */,
+				C777203422003CE000D609EF /* Message */,
+				C777201E22003CE000D609EF /* Class */,
+				C777202522003CE000D609EF /* Mine */,
 			);
 			path = MVVM;
-			sourceTree = "<group>";
-		};
-		C744630921FB111E00A8E0A7 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				C744633C21FEDE4600A8E0A7 /* HomeViewModel */,
-				C744633F21FEDE4600A8E0A7 /* LoginOrRegisterViewModel */,
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		C744630A21FB111E00A8E0A7 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				C744633221FEDE2400A8E0A7 /* HomeVC */,
-				C7771FED2200244B00D609EF /* MessageVC */,
-				C7771FEE2200244B00D609EF /* ClassVC */,
-				C7771FEA2200244B00D609EF /* MineVC */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		C744630B21FB111E00A8E0A7 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				C744634121FEDE5100A8E0A7 /* HomeModel */,
-				C744634421FEDE5100A8E0A7 /* LoginOrRegisterModel */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		C744630C21FB111E00A8E0A7 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				C744633721FEDE3B00A8E0A7 /* HomeView */,
-				C744633A21FEDE3B00A8E0A7 /* LoginOrRegisterView */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		C744633221FEDE2400A8E0A7 /* HomeVC */ = {
-			isa = PBXGroup;
-			children = (
-				C744633321FEDE2400A8E0A7 /* LPHomeViewController.m */,
-				C744633421FEDE2400A8E0A7 /* LPHomeViewController.h */,
-			);
-			path = HomeVC;
-			sourceTree = "<group>";
-		};
-		C744633721FEDE3B00A8E0A7 /* HomeView */ = {
-			isa = PBXGroup;
-			children = (
-				C744633821FEDE3B00A8E0A7 /* LPHomeView.h */,
-				C744633921FEDE3B00A8E0A7 /* LPHomeView.m */,
-			);
-			path = HomeView;
-			sourceTree = "<group>";
-		};
-		C744633A21FEDE3B00A8E0A7 /* LoginOrRegisterView */ = {
-			isa = PBXGroup;
-			children = (
-				C744635421FEF08B00A8E0A7 /* LPLoginOrRegisterView.h */,
-				C744635521FEF08B00A8E0A7 /* LPLoginOrRegisterView.m */,
-			);
-			path = LoginOrRegisterView;
-			sourceTree = "<group>";
-		};
-		C744633C21FEDE4600A8E0A7 /* HomeViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				C744633D21FEDE4600A8E0A7 /* LPHomeViewModel.m */,
-				C744633E21FEDE4600A8E0A7 /* LPHomeViewModel.h */,
-			);
-			path = HomeViewModel;
-			sourceTree = "<group>";
-		};
-		C744633F21FEDE4600A8E0A7 /* LoginOrRegisterViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				C744634C21FEE33F00A8E0A7 /* LPLoginOrRegisterVM.h */,
-				C744634D21FEE33F00A8E0A7 /* LPLoginOrRegisterVM.m */,
-			);
-			path = LoginOrRegisterViewModel;
-			sourceTree = "<group>";
-		};
-		C744634121FEDE5100A8E0A7 /* HomeModel */ = {
-			isa = PBXGroup;
-			children = (
-				C744634221FEDE5100A8E0A7 /* LPHomeModel.m */,
-				C744634321FEDE5100A8E0A7 /* LPHomeModel.h */,
-			);
-			path = HomeModel;
-			sourceTree = "<group>";
-		};
-		C744634421FEDE5100A8E0A7 /* LoginOrRegisterModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = LoginOrRegisterModel;
 			sourceTree = "<group>";
 		};
 		C7771FD32200231000D609EF /* Images */ = {
@@ -399,33 +309,186 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
-		C7771FEA2200244B00D609EF /* MineVC */ = {
+		C777201122003CE000D609EF /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				C7771FF62200249B00D609EF /* LPMineController.h */,
-				C7771FF72200249B00D609EF /* LPMineController.m */,
-				C7771FEB2200244B00D609EF /* LPLoginOrRegisterController.h */,
-				C7771FEC2200244B00D609EF /* LPLoginOrRegisterController.m */,
+				C777201222003CE000D609EF /* ViewModel */,
+				C777201522003CE000D609EF /* Controller */,
+				C777201822003CE000D609EF /* Model */,
+				C777201B22003CE000D609EF /* View */,
 			);
-			path = MineVC;
+			path = Home;
 			sourceTree = "<group>";
 		};
-		C7771FED2200244B00D609EF /* MessageVC */ = {
+		C777201222003CE000D609EF /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				C7771FF02200247300D609EF /* LPMessageController.h */,
-				C7771FF12200247300D609EF /* LPMessageController.m */,
+				C777201322003CE000D609EF /* LPHomeViewModel.m */,
+				C777201422003CE000D609EF /* LPHomeViewModel.h */,
 			);
-			path = MessageVC;
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		C7771FEE2200244B00D609EF /* ClassVC */ = {
+		C777201522003CE000D609EF /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				C7771FF32200248300D609EF /* LPClassController.h */,
-				C7771FF42200248300D609EF /* LPClassController.m */,
+				C777201622003CE000D609EF /* LPHomeViewController.m */,
+				C777201722003CE000D609EF /* LPHomeViewController.h */,
 			);
-			path = ClassVC;
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C777201822003CE000D609EF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C777201922003CE000D609EF /* LPHomeModel.m */,
+				C777201A22003CE000D609EF /* LPHomeModel.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C777201B22003CE000D609EF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C777201C22003CE000D609EF /* LPHomeView.h */,
+				C777201D22003CE000D609EF /* LPHomeView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C777201E22003CE000D609EF /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				C777201F22003CE000D609EF /* ViewModel */,
+				C777202022003CE000D609EF /* Controller */,
+				C777202322003CE000D609EF /* Model */,
+				C777202422003CE000D609EF /* View */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		C777201F22003CE000D609EF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C777202022003CE000D609EF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C777202122003CE000D609EF /* LPClassController.m */,
+				C777202222003CE000D609EF /* LPClassController.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C777202322003CE000D609EF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C777202422003CE000D609EF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C777202522003CE000D609EF /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				C777202622003CE000D609EF /* ViewModel */,
+				C777202B22003CE000D609EF /* Controller */,
+				C777203022003CE000D609EF /* Model */,
+				C777203122003CE000D609EF /* View */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		C777202622003CE000D609EF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C777202722003CE000D609EF /* LPMineVM.h */,
+				C777202822003CE000D609EF /* LPLoginOrRegisterVM.h */,
+				C777202922003CE000D609EF /* LPMineVM.m */,
+				C777202A22003CE000D609EF /* LPLoginOrRegisterVM.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C777202B22003CE000D609EF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C777202C22003CE000D609EF /* LPLoginOrRegisterController.h */,
+				C777202D22003CE000D609EF /* LPMineController.h */,
+				C777202E22003CE000D609EF /* LPLoginOrRegisterController.m */,
+				C777202F22003CE000D609EF /* LPMineController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C777203022003CE000D609EF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C777203122003CE000D609EF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C777203222003CE000D609EF /* LPLoginOrRegisterView.m */,
+				C777203322003CE000D609EF /* LPLoginOrRegisterView.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C777203422003CE000D609EF /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				C777203522003CE000D609EF /* ViewModel */,
+				C777203822003CE000D609EF /* Controller */,
+				C777203B22003CE000D609EF /* Model */,
+				C777203C22003CE000D609EF /* View */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		C777203522003CE000D609EF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C777203622003CE000D609EF /* LPHomeViewModel.m */,
+				C777203722003CE000D609EF /* LPHomeViewModel.h */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C777203822003CE000D609EF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C777203922003CE000D609EF /* LPMessageController.h */,
+				C777203A22003CE000D609EF /* LPMessageController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C777203B22003CE000D609EF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C777203C22003CE000D609EF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C777203D22003CE000D609EF /* LPHomeView.h */,
+				C777203E22003CE000D609EF /* LPHomeView.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -609,28 +672,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C744633B21FEDE3B00A8E0A7 /* LPHomeView.m in Sources */,
-				C744634021FEDE4600A8E0A7 /* LPHomeViewModel.m in Sources */,
 				C77720042200266700D609EF /* LPCommonTool.m in Sources */,
+				C777203F22003CE000D609EF /* LPHomeViewModel.m in Sources */,
 				C744630521FB110F00A8E0A7 /* main.m in Sources */,
+				C777204622003CE000D609EF /* LPLoginOrRegisterController.m in Sources */,
+				C777204722003CE000D609EF /* LPMineController.m in Sources */,
 				C744630621FB110F00A8E0A7 /* AppDelegate.m in Sources */,
-				C7771FF52200248300D609EF /* LPClassController.m in Sources */,
-				C7771FF22200247300D609EF /* LPMessageController.m in Sources */,
+				C777204822003CE000D609EF /* LPLoginOrRegisterView.m in Sources */,
+				C777204322003CE000D609EF /* LPClassController.m in Sources */,
+				C777204022003CE000D609EF /* LPHomeViewController.m in Sources */,
 				C7771FFB2200260500D609EF /* LPSearchView.m in Sources */,
 				C7771FE72200236900D609EF /* LPBaseViewController.m in Sources */,
-				C744633621FEDE2400A8E0A7 /* LPHomeViewController.m in Sources */,
 				C744630221FB110F00A8E0A7 /* ViewController.m in Sources */,
-				C7771FEF2200244B00D609EF /* LPLoginOrRegisterController.m in Sources */,
+				C777204222003CE000D609EF /* LPHomeView.m in Sources */,
 				C77720032200266700D609EF /* LPShareManager.m in Sources */,
 				C7771FE62200236900D609EF /* LPTabbarController.m in Sources */,
-				C7771FF82200249B00D609EF /* LPMineController.m in Sources */,
 				C7771FE92200236900D609EF /* LPWebViewController.m in Sources */,
-				C744635021FEE3E200A8E0A7 /* LPLoginOrRegisterVM.m in Sources */,
-				C744635621FEF08B00A8E0A7 /* LPLoginOrRegisterView.m in Sources */,
 				C7771FE42200236900D609EF /* LPBaseTableView.m in Sources */,
 				C77720022200266700D609EF /* LPFactoryTool.m in Sources */,
-				C744634521FEDE5100A8E0A7 /* LPHomeModel.m in Sources */,
 				C7771FE52200236900D609EF /* LPBaseObject.m in Sources */,
+				C777204B22003CE000D609EF /* LPHomeView.m in Sources */,
+				C777204122003CE000D609EF /* LPHomeModel.m in Sources */,
+				C777204A22003CE000D609EF /* LPMessageController.m in Sources */,
+				C777204422003CE000D609EF /* LPMineVM.m in Sources */,
+				C777204922003CE000D609EF /* LPHomeViewModel.m in Sources */,
+				C777204522003CE000D609EF /* LPLoginOrRegisterVM.m in Sources */,
 				C7771FE82200236900D609EF /* LPBaseNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -805,7 +871,7 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = FFH6E9RDL4;
+				DEVELOPMENT_TEAM = QA6BHPX6ZG;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/LPHomework/Configuration/PrefixHeader.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/LPHomework/Configuration/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -826,7 +892,7 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = FFH6E9RDL4;
+				DEVELOPMENT_TEAM = QA6BHPX6ZG;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/LPHomework/Configuration/PrefixHeader.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/LPHomework/Configuration/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;

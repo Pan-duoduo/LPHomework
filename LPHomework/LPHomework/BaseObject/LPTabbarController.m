@@ -43,7 +43,7 @@
     //homeNav.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"首页" image:homeImage selectedImage:homeImageA];
     
     
-    // 3.机构首页 (特殊按钮)
+    // 
     LPMessageController *messageVC = [[LPMessageController alloc] init];
     UIImage *institutionImage =[[UIImage imageNamed:@"tabbar_message"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     UIImage *institutionImageA = [[UIImage imageNamed:@"tabbar_message_s"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
@@ -52,7 +52,7 @@
     [messageVC.tabBarItem setTitlePositionAdjustment:UIOffsetMake(0, -LPScalePX(5))];
     LPBaseNavigationController *institutionNav = [[LPBaseNavigationController alloc] initWithRootViewController:messageVC];
     
-    //轨迹
+    //
     LPClassController * classVC = [[LPClassController alloc]init];
     UIImage *trajectoryImage =[[UIImage imageNamed:@"tabbar_class"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     UIImage *trajectoryImageA = [[UIImage imageNamed:@"tabbar_class"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
@@ -60,19 +60,8 @@
     classVC.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"班级" image:trajectoryImage selectedImage:trajectoryImageA];
     [classVC.tabBarItem setTitlePositionAdjustment:UIOffsetMake(0, -LPScalePX(5))];
     LPBaseNavigationController *trajectoryNav = [[LPBaseNavigationController alloc] initWithRootViewController:classVC];
-    
-    
-    // 4.问答页
-//    LPQuestionAnswerController *questionVC = [[LPQuestionAnswerController alloc] init];
-//    UIImage *questionImage =[[UIImage imageNamed:@"questionAnswer"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-//    UIImage *questionImageA = [[UIImage imageNamed:@"questionAnswer_a"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-//    questionVC.title =@"问答";
-//    questionVC.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"问答" image:questionImage selectedImage:questionImageA];
-//    [questionVC.tabBarItem setTitlePositionAdjustment:UIOffsetMake(0, -LPScalePX(5))];
-//    LPBaseNavigationController *questionNav = [[LPBaseNavigationController alloc] initWithRootViewController:questionVC];
-   // questionNav.tabBarItem =[[UITabBarItem alloc] initWithTitle:@"问答" image:questionImage selectedImage:questionImageA];
    
-    // 5.我的页面
+    // 我的页面
     LPMineController *mineVC = [[LPMineController alloc] init];
     UIImage *mineImage =[[UIImage imageNamed:@"tabbar_mine"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     UIImage *mineImageA = [[UIImage imageNamed:@"tabbar_mine_s"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];

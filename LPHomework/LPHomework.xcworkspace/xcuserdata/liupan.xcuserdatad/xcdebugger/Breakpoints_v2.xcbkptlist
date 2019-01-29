@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LPHomework/MVVM/ViewModel/LoginOrRegisterViewModel/LPLoginOrRegisterVM.m"
+            timestampString = "570358917.0579669"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "-setUp"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LPHomework/MVVM/ViewModel/LoginOrRegisterViewModel/LPLoginOrRegisterVM.m"
+            timestampString = "570358917.058197"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "-setUp"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__28-[LPLoginOrRegisterVM setUp]_block_invoke.29"
+                  moduleName = "LPHomework"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liupan/Desktop/LPHomework/LPHomework/LPHomework/MVVM/ViewModel/LoginOrRegisterViewModel/LPLoginOrRegisterVM.m"
+                  timestampString = "570358917.083774"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "73">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__28-[LPLoginOrRegisterVM setUp]_block_invoke_2"
+                  moduleName = "LPHomework"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liupan/Desktop/LPHomework/LPHomework/LPHomework/MVVM/ViewModel/LoginOrRegisterViewModel/LPLoginOrRegisterVM.m"
+                  timestampString = "570358917.08658"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

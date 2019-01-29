@@ -23,7 +23,15 @@
 
 - (void)addMainView {
     
+    UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, LPScreen_W, LPScalePX(80))];
+    button.backgroundColor = [UIColor redColor];
+    [button addTarget:self action:@selector(push) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
 }
 
+- (void)push {
+    
+    
+}
 
 @end

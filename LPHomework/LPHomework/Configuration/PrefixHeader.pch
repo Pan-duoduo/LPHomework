@@ -1,0 +1,108 @@
+//
+//  PrefixHeader.pch
+//  LPHomework
+//
+//  Created by 刘潘 on 2019/1/28.
+//  Copyright © 2019年 LPHomework. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
+
+
+
+#pragma mark ============================== 常用方法区 ==============================
+/**
+ * 强弱引用转换，用于解决代码块（block）与强引用self之间的循环引用问题
+ * 调用方式: `@weakify_self`实现弱引用转换，`@strongify_self`实现强引用转换
+ *
+ * 示例：
+ * @weakify_self
+ * [obj block:^{
+ * @strongify_self
+ * self.property = something;
+ * }];
+ */
+
+#ifndef    weakify_self
+#if __has_feature(objc_arc)
+#define weakify_self autoreleasepool{} __weak __typeof__(self) weakSelf = self;
+#else
+#define weakify_self autoreleasepool{} __block __typeof__(self) blockSelf = self;
+#endif
+#endif
+#ifndef    strongify_self
+#if __has_feature(objc_arc)
+#define strongify_self try{} @finally{} __typeof__(weakSelf) self = weakSelf;
+#else
+#define strongify_self try{} @finally{} __typeof__(blockSelf) self = blockSelf;
+#endif
+#endif
+/**
+ * 强弱引用转换，用于解决代码块（block）与强引用对象之间的循环引用问题
+ * 调用方式: `@weakify(object)`实现弱引用转换，`@strongify(object)`实现强引用转换
+ *
+ * 示例：
+ * @weakify(object)
+ * [obj block:^{
+ * @strongify(object)
+ * strong_object = something;
+ * }];
+ */
+#ifndef    weakify
+#if __has_feature(objc_arc)
+#define weakify(object) autoreleasepool{} __weak __typeof__(object) weak##_##object = object;
+#else
+#define weakify(object) autoreleasepool{} __block __typeof__(object) block##_##object = object;
+#endif
+#endif
+#ifndef    strongify
+#if __has_feature(objc_arc)
+#define strongify(object) try{} @finally{} __typeof__(object) strong##_##object = weak##_##object;
+#else
+#define strongify(object) try{} @finally{} __typeof__(object) strong##_##object = block##_##object;
+#endif
+#endif
+
+
+#define LPScreen_W  [UIScreen mainScreen].bounds.size.width  // 设备的宽
+#define LPScreen_H  [UIScreen mainScreen].bounds.size.height // 设备的高
+#define LPScalePX(x) ((CGRectGetWidth([UIScreen mainScreen].bounds) * x) / 750)    // 比例缩放（6s）
+
+#pragma mark ************************ 颜色、字体定义 ************************
+#define LPColorWithHex(x)   [UIColor colorWithRed:((float)((x & 0xFF0000) >> 16))/255.0 green:((float)((x & 0xFF00) >> 8))/255.0 blue:((float)(x & 0xFF))/255.0 alpha:1.0]
+#define LPLineColor LPColorWithHex(0xcacaca)                        // 分割线颜色
+#define LPFontSize(size) [UIFont systemFontOfSize:size]             // 字体
+#define LPFontBoldSize(size) [UIFont boldSystemFontOfSize:size]     // 加粗字体
+
+
+
+
+
+#pragma mark ============================== 三方库头文件 ==============================
+#import <ReactiveObjC/ReactiveObjC.h>
+
+
+
+
+
+
+
+
+
+
+
+#pragma mark ============================== 自定义文件 ==============================
+
+
+
+
+
+
+
+#pragma mark ==============================  ==============================

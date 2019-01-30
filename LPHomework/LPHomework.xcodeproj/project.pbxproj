@@ -36,9 +36,10 @@
 		C777204622003CE000D609EF /* LPLoginOrRegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = C777202E22003CE000D609EF /* LPLoginOrRegisterController.m */; };
 		C777204722003CE000D609EF /* LPMineController.m in Sources */ = {isa = PBXBuildFile; fileRef = C777202F22003CE000D609EF /* LPMineController.m */; };
 		C777204822003CE000D609EF /* LPLoginOrRegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = C777203222003CE000D609EF /* LPLoginOrRegisterView.m */; };
-		C777204922003CE000D609EF /* LPHomeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C777203622003CE000D609EF /* LPHomeViewModel.m */; };
 		C777204A22003CE000D609EF /* LPMessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = C777203A22003CE000D609EF /* LPMessageController.m */; };
-		C777204B22003CE000D609EF /* LPHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C777203E22003CE000D609EF /* LPHomeView.m */; };
+		C777204E22003DAB00D609EF /* LPUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C777204D22003DAB00D609EF /* LPUserModel.m */; };
+		C77720512200536C00D609EF /* LPMineHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = C77720502200536C00D609EF /* LPMineHeaderView.m */; };
+		C777205422005A7200D609EF /* LPMineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C777205322005A7200D609EF /* LPMineCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -124,6 +125,12 @@
 		C777203A22003CE000D609EF /* LPMessageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPMessageController.m; sourceTree = "<group>"; };
 		C777203D22003CE000D609EF /* LPHomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPHomeView.h; sourceTree = "<group>"; };
 		C777203E22003CE000D609EF /* LPHomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPHomeView.m; sourceTree = "<group>"; };
+		C777204C22003DAB00D609EF /* LPUserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LPUserModel.h; sourceTree = "<group>"; };
+		C777204D22003DAB00D609EF /* LPUserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPUserModel.m; sourceTree = "<group>"; };
+		C777204F2200536C00D609EF /* LPMineHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LPMineHeaderView.h; sourceTree = "<group>"; };
+		C77720502200536C00D609EF /* LPMineHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPMineHeaderView.m; sourceTree = "<group>"; };
+		C777205222005A7200D609EF /* LPMineCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LPMineCell.h; sourceTree = "<group>"; };
+		C777205322005A7200D609EF /* LPMineCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPMineCell.m; sourceTree = "<group>"; };
 		D44C833D77190D42308732D1 /* Pods_LPHomework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LPHomework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED8BF407AACB8EC07BE7889F /* Pods-LPHomework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LPHomework.release.xcconfig"; path = "Pods/Target Support Files/Pods-LPHomework/Pods-LPHomework.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -400,10 +407,10 @@
 		C777202522003CE000D609EF /* Mine */ = {
 			isa = PBXGroup;
 			children = (
-				C777202622003CE000D609EF /* ViewModel */,
 				C777202B22003CE000D609EF /* Controller */,
-				C777203022003CE000D609EF /* Model */,
+				C777202622003CE000D609EF /* ViewModel */,
 				C777203122003CE000D609EF /* View */,
+				C777203022003CE000D609EF /* Model */,
 			);
 			path = Mine;
 			sourceTree = "<group>";
@@ -412,8 +419,8 @@
 			isa = PBXGroup;
 			children = (
 				C777202722003CE000D609EF /* LPMineVM.h */,
-				C777202822003CE000D609EF /* LPLoginOrRegisterVM.h */,
 				C777202922003CE000D609EF /* LPMineVM.m */,
+				C777202822003CE000D609EF /* LPLoginOrRegisterVM.h */,
 				C777202A22003CE000D609EF /* LPLoginOrRegisterVM.m */,
 			);
 			path = ViewModel;
@@ -422,10 +429,10 @@
 		C777202B22003CE000D609EF /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				C777202C22003CE000D609EF /* LPLoginOrRegisterController.h */,
 				C777202D22003CE000D609EF /* LPMineController.h */,
-				C777202E22003CE000D609EF /* LPLoginOrRegisterController.m */,
 				C777202F22003CE000D609EF /* LPMineController.m */,
+				C777202C22003CE000D609EF /* LPLoginOrRegisterController.h */,
+				C777202E22003CE000D609EF /* LPLoginOrRegisterController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -433,6 +440,8 @@
 		C777203022003CE000D609EF /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C777204C22003DAB00D609EF /* LPUserModel.h */,
+				C777204D22003DAB00D609EF /* LPUserModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -440,8 +449,12 @@
 		C777203122003CE000D609EF /* View */ = {
 			isa = PBXGroup;
 			children = (
-				C777203222003CE000D609EF /* LPLoginOrRegisterView.m */,
+				C777204F2200536C00D609EF /* LPMineHeaderView.h */,
+				C77720502200536C00D609EF /* LPMineHeaderView.m */,
+				C777205222005A7200D609EF /* LPMineCell.h */,
+				C777205322005A7200D609EF /* LPMineCell.m */,
 				C777203322003CE000D609EF /* LPLoginOrRegisterView.h */,
+				C777203222003CE000D609EF /* LPLoginOrRegisterView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -690,12 +703,13 @@
 				C7771FE92200236900D609EF /* LPWebViewController.m in Sources */,
 				C7771FE42200236900D609EF /* LPBaseTableView.m in Sources */,
 				C77720022200266700D609EF /* LPFactoryTool.m in Sources */,
+				C777204E22003DAB00D609EF /* LPUserModel.m in Sources */,
 				C7771FE52200236900D609EF /* LPBaseObject.m in Sources */,
-				C777204B22003CE000D609EF /* LPHomeView.m in Sources */,
+				C777205422005A7200D609EF /* LPMineCell.m in Sources */,
 				C777204122003CE000D609EF /* LPHomeModel.m in Sources */,
+				C77720512200536C00D609EF /* LPMineHeaderView.m in Sources */,
 				C777204A22003CE000D609EF /* LPMessageController.m in Sources */,
 				C777204422003CE000D609EF /* LPMineVM.m in Sources */,
-				C777204922003CE000D609EF /* LPHomeViewModel.m in Sources */,
 				C777204522003CE000D609EF /* LPLoginOrRegisterVM.m in Sources */,
 				C7771FE82200236900D609EF /* LPBaseNavigationController.m in Sources */,
 			);
@@ -868,7 +882,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 389F9A8C0E2962DCA42C4329 /* Pods-LPHomework.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QA6BHPX6ZG;
@@ -889,7 +903,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ED8BF407AACB8EC07BE7889F /* Pods-LPHomework.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QA6BHPX6ZG;

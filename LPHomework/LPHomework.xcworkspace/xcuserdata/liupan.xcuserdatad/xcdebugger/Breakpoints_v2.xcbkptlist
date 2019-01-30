@@ -33,38 +33,6 @@
             endingLineNumber = "30"
             landmarkName = "-setUp"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__28-[LPLoginOrRegisterVM setUp]_block_invoke.29"
-                  moduleName = "LPHomework"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/liupan/Desktop/LPHomework/LPHomework/LPHomework/MVVM/ViewModel/LoginOrRegisterViewModel/LPLoginOrRegisterVM.m"
-                  timestampString = "570437496.20928"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "30"
-                  endingLineNumber = "30"
-                  offsetFromSymbolStart = "73">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__28-[LPLoginOrRegisterVM setUp]_block_invoke_2"
-                  moduleName = "LPHomework"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/liupan/Desktop/LPHomework/LPHomework/LPHomework/MVVM/ViewModel/LoginOrRegisterViewModel/LPLoginOrRegisterVM.m"
-                  timestampString = "570437496.211291"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "31"
-                  endingLineNumber = "31"
-                  offsetFromSymbolStart = "48">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy

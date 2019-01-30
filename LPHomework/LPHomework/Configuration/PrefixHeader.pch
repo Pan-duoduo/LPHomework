@@ -140,7 +140,7 @@
 #pragma mark ============================== 自定义文件 ==============================
 #import "LPBaseViewController.h"
 #import "LPBaseNavigationController.h"
-
+#import "LPBaseObject.h"
 
 
 

@@ -16,6 +16,7 @@
 
 @implementation LPBaseViewController
 
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -40,9 +41,7 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    
-    // 页面浏览统计
-    
+
     // 只能这么写，禁用 self.navigationController.navigationBar.hidden = NO 有时不生效
     self.navigationController.navigationBarHidden = NO;
 }
